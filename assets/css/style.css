@@ -1,0 +1,48 @@
+@font-face { font-family: southpark; src: url("Fonts/south park.TTF"); } 
+
+body {
+    background-image: url(../images/Backgroundimage.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    color: black;
+    text-align: center;
+    
+  }
+  
+  #container {
+    margin: 0 20%;
+    padding: 30px;
+    background-color: teal;
+  }
+  
+  button {
+    width: 70%;
+    height: 40px;
+    margin: 0 15%;
+    margin-bottom: 15px;
+    font-family: 'south park';
+    font-size: 150%;
+  }
+  
+  button:hover {
+    border: 3px solid cadetblue;
+  }
+  
+  h1 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'southpark', sans-serif;
+  }
+  
+  h2 {
+    font-family: 'southpark', sans-serif;
+    margin-bottom: 22px;
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-family: 'southpark', sans-serif;
+    font-size: 22px;
+  }
